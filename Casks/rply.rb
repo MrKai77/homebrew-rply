@@ -1,11 +1,13 @@
 cask "rply" do
-  version "2.1.2"
-  sha256 "a1a1c93a9f3c7ffea64f0549d7a97f54d3952731514dadf99655e61e5f8a5638"
+  version :latest
+  sha256 :no_check
 
   url "https://nox-website.s3.us-east-2.amazonaws.com/RPLY.dmg"
   name "RPLY"
   desc "Your iMessage Inbox Assistant"
   homepage "https://www.heynox.com/rply/download"
+
+  auto_updates true
 
   app "RPLY.app"
 
